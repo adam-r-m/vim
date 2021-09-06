@@ -1,16 +1,23 @@
-set number
-set mouse=a
-set nocompatible
-set fillchars+=vert:│
-set textwidth=80 
-"set formatoptions=tc
- "set fo+=a
 
-set t_Co=256
-syntax on
+set number 
+set mouse=a 
+set nocompatible 
+set fillchars+=vert:│ 
+set textwidth=78 
+set formatoptions=t 
 
 filetype plugin on
 "filetype indent on
+
+"set t_Co=256 
+set t_Co=16
+syntax on 
+let g:solarized_termcolors=16
+"set background=light
+set background=dark
+
+colorscheme solarized
+
 let leader = '\'
 
 "vim-plug settings (plugins)
@@ -66,7 +73,7 @@ set fillchars=""
  autocmd ColorScheme * highlight VertSplit cterm=NONE ctermfg=Green  ctermbg=NONE
 
 "set color of line numbers"
-highlight LineNr ctermfg=grey
+"highlight LineNr ctermfg=darkgrey
 
 "show hidden files in NT:
 let NERDTreeShowHidden=1
