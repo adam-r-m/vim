@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/adam/Dropbox/School_docs/Papers/prop_worlds_final'
-let g:netrw_dirhist_2='/home/adam/Dropbox/School_docs/Papers'
-let g:netrw_dirhist_3='/etc/modprobe.d'
-let g:netrw_dirhist_4='/home/adam/.config'
-let g:netrw_dirhist_5='/home/adam/.config/libreoffice'
-let g:netrw_dirhist_6='/home/adam/.config'
-let g:netrw_dirhist_7='/home/adam/.config/i3'
